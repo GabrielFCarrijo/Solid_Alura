@@ -1,6 +1,6 @@
 # Solid Alura
 
-![image](https://github.com/GabrielFCarrijo/Solid_Alura/assets/84852692/63c88ce1-8795-42da-8064-366d6481f188)
+![image](https://github.com/GabrielFCarrijo/Solid_Alura/assets/84852692/c9b9ee4b-7e74-42e2-bf78-f551f7368a40)
 
 # Curso de SOLID
 
