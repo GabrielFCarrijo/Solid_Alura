@@ -2,14 +2,14 @@ package br.com.alura.rh.model;
 
 import java.math.BigDecimal;
 
-public class DadosPessois {
+public class DadosPessoais {
 
     private String nome;
     private String cpf;
     private Cargo cargo;
     private BigDecimal salario;
 
-    public DadosPessois(String nome, String cpf, Cargo cargo, BigDecimal salario) {
+    public DadosPessoais(String nome, String cpf, Cargo cargo, BigDecimal salario) {
         this.nome = nome;
         this.cpf = cpf;
         this.cargo = cargo;
