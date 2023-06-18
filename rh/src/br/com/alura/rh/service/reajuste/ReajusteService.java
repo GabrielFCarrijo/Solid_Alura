@@ -1,7 +1,7 @@
-package br.com.alura.rh.service;
+package br.com.alura.rh.service.reajuste;
 
 import br.com.alura.rh.model.Funcionario;
-import br.com.alura.rh.validacao.ValidacaoReajuste;
+import br.com.alura.rh.service.reajuste.validacao.ValidacaoReajuste;
 
 import java.math.BigDecimal;
 import java.util.List;
@@ -15,7 +15,7 @@ public class ReajusteService {
     }
 
     public void reajustarSalarioDoFuncionario(Funcionario funcionario, BigDecimal aumento) {
-        this.validacoes.forEach(v -> v.Validar(funcionario, aumento));
+        this.validacoes.forEach(v -> v.validar(funcionario, aumento));
 
         BigDecimal salarioReajustado = funcionario.getSalario().add(aumento);
         funcionario.atualizarSalario(salarioReajustado);

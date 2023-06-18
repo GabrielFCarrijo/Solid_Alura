@@ -1,8 +1,8 @@
-package br.com.alura.rh.service;
+package br.com.alura.rh.service.reajuste;
 
 import br.com.alura.rh.ValidacaoException;
 import br.com.alura.rh.model.Funcionario;
-import br.com.alura.rh.validacao.ValidacaoReajuste;
+import br.com.alura.rh.service.reajuste.validacao.ValidacaoReajuste;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -11,7 +11,7 @@ import java.time.temporal.ChronoUnit;
 public class PeriodicidadeEntreReajustes implements ValidacaoReajuste {
 
     @Override
-    public void Validar(Funcionario funcionario, BigDecimal aumento) {
+    public void validar(Funcionario funcionario, BigDecimal aumento) {
         LocalDate dataUltimoReajuste = funcionario.getDataUltimoReajuste();
         LocalDate dataAtual = LocalDate.now();
 

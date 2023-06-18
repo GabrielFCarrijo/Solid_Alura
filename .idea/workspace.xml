@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="965e51e5-0554-4000-a194-fc74ef68ce6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/rh/src/br/com/alura/rh/service/PeriodicidadeEntreReajustes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rh/src/br/com/alura/rh/service/ValidacaoPercentualReajuste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rh/src/br/com/alura/rh/validacao/ValidacaoReajuste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rh/src/br/com/alura/rh/model/DadosPessois.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rh/src/br/com/alura/rh/model/Terceirizado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rh/src/br/com/alura/rh/service/promocao/PromocaoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rh/src/br/com/alura/rh/service/ReajusteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rh/src/br/com/alura/rh/service/ReajusteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rh/src/br/com/alura/rh/model/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/rh/src/br/com/alura/rh/model/Cargo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rh/src/br/com/alura/rh/model/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/rh/src/br/com/alura/rh/model/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rh/src/br/com/alura/rh/service/PeriodicidadeEntreReajustes.java" beforeDir="false" afterPath="$PROJECT_DIR$/rh/src/br/com/alura/rh/service/reajuste/PeriodicidadeEntreReajustes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rh/src/br/com/alura/rh/service/ReajusteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rh/src/br/com/alura/rh/service/reajuste/ReajusteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rh/src/br/com/alura/rh/service/ValidacaoPercentualReajuste.java" beforeDir="false" afterPath="$PROJECT_DIR$/rh/src/br/com/alura/rh/service/reajuste/ValidacaoPercentualReajuste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rh/src/br/com/alura/rh/validacao/ValidacaoReajuste.java" beforeDir="false" afterPath="$PROJECT_DIR$/rh/src/br/com/alura/rh/service/reajuste/validacao/ValidacaoReajuste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,6 +54,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.alura.rh.model" />
       <recent name="br.com.alura.rh.validacao" />
     </key>
   </component>
